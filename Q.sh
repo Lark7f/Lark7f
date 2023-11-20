@@ -2,16 +2,11 @@ trap 'printf "\n";partial;exit 1' 2
 
 
 banner() {
-printf "\e[1;77m___               _                                \e[0m\n"
-printf "\e[1;77m|  |             / \         |  /--             \e[0m\n"
-printf "\e[1;77m|  |            /   \        | /        |          \e[0m\n"
-printf "\e[1;77m|  |         - /-----\-      |/         | /         \e[0m\n"
-printf "\e[1;77m|  |          /       \      |          |/           \e[0m\n"
-printf "\e[1;77m|  |         /         \     |          |\           \e[0m\n"
-printf "\e[1;77m|  |____|   /           \    |          | \          \e[0m\n"
-printf "\e[1;77m|_______|  /             \   |          |      \e[0m\n"
+
+printf "\e[1;77m| RAKLO\e[0m\n"
+"
 printf "\n"
-printf "\e[1;93m             .:.:;..\e[0m\e[1;77m Developer: Lark\e[0m\e[1;93m..;:.:.\e[0m\n"
+printf "\e[1;93m             .:.:;..\e[0m\e[1;77m Developer: raklo\e[0m\e[1;93m..;:.:.\e[0m\n"
 printf "\n"
 
 
